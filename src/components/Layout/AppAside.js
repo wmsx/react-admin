@@ -1,6 +1,7 @@
 import {Layout} from 'antd';
 import React from 'react';
-import imageLogo from 'assets/images/logo.png'
+import imageLogo from 'assets/images/logo.png';
+import CustomMenu from 'components/CustomMenu';
 
 const {Sider} = Layout
 
@@ -15,7 +16,7 @@ class AppAside extends React.Component {
             <img src={imageLogo} alt='私享'/>
           </a>
         </div>
-        
+        <CustomMenu menu={menu} />
       </Sider>
     );
   }
