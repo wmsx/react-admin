@@ -1,10 +1,24 @@
 .app {
   font-size: 1.6rem;
 
+  .aside {
+
+    .logo {
+      height: 4rem;
+      text-align: center;
+      img {
+        height: 80%;
+        margin: 0.5rem;
+      }
+    }
+  }
+
   .header {
     background-color: white;
     display: flex;
     justify-content: space-between;
+
+
   }
 
   .content {

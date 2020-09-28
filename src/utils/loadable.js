@@ -3,8 +3,6 @@ import Loadable from 'react-loadable';
 
 class loadingComponent extends React.Component {
 
-  
-
   render() {
     return (
       <div></div>
