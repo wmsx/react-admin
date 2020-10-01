@@ -16,8 +16,14 @@ const menu = [
     subs: [
       { key: '/post-manage/list', title: '稿件管理',},
       { key: '/post-manage/new', title: '投稿',}
-    ]
-},
+    ],
+  },
+  {
+    key: '/statistic',
+    title: '统计',
+    icon: <HomeOutlined />,
+    auth: [1]
+  },
   
 ]
 

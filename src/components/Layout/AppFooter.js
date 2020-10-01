@@ -6,7 +6,7 @@ const { Footer } = Layout
 class AppFooter extends React.Component {
   render() {
     return (
-      <Footer className='footer'>&copy;2019 Created By 未檬科技</Footer>
+      <Footer className='footer'>&copy;2020 Created By 未檬科技</Footer>
     )
   }
 } 
